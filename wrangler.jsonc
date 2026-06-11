@@ -3,9 +3,9 @@
   "name": "hull-electrician",
   "compatibility_date": "2026-06-11",
   "compatibility_flags": ["nodejs_compat"],
-  "main": ".output/server/index.mjs",
+  "main": "@tanstack/react-start/server-entry",
   "assets": {
-    "directory": ".output/public"
+    "directory": "dist/client"
   },
   "observability": {
     "enabled": true
