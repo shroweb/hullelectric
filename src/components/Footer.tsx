@@ -5,6 +5,8 @@ import { company, services, areas } from "@/lib/site-data";
 export function Footer() {
   return (
     <footer className="bg-ink text-background/80">
+      {/* primary accent rule */}
+      <div className="h-1 bg-[image:var(--gradient-primary)]" />
       <div className="mx-auto grid max-w-[1200px] gap-10 px-4 py-14 sm:px-6 md:grid-cols-4">
         <div>
           <img

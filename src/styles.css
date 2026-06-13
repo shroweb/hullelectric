@@ -173,3 +173,13 @@
   background-clip: text;
   color: transparent;
 }
+
+@utility dot-pattern {
+  background-image: radial-gradient(oklch(0.3 0.01 250 / 0.06) 1px, transparent 1px);
+  background-size: 22px 22px;
+}
+
+@keyframes pulse-ring {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.4; transform: scale(1.5); }
+}
